@@ -53,7 +53,7 @@ function Internship() {
           </div>
           <div className="internship-certificate-link">
             <a 
-              href="/certificates/Althaf A ( Internship Certificate ).pdf" 
+              href={`${import.meta.env.BASE_URL}certificates/Althaf A ( Internship Certificate ).pdf`} 
               target="_blank" 
               rel="noopener noreferrer"
               className="view-certificate-btn"

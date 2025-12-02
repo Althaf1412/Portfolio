@@ -85,14 +85,14 @@ function Education() {
             Full stack web development.
           </p>
           <div className="certificate-link">
-            <a 
-              href="/certificates/CourseCompletion.jpg" 
-              target="_blank" 
+            <a
+              href="./certificates/CourseCompletion.jpg" // <-- relative path
+              target="_blank"
               rel="noopener noreferrer"
               className="view-certificate-btn"
             >
               <span className="cert-icon">📄</span>
-              View Certificate 
+              View Certificate
             </a>
           </div>
         </div>

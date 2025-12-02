@@ -7,11 +7,12 @@ function Home() {
       <div className="home-container">
         <div className="home-content">
           <div className="profile-circle">
-            <img 
-              src="/certificates/Mypic.jpg" 
-              alt="Althaf Profile" 
-              className="profile-image"
-            />
+            <img
+  src={`${import.meta.env.BASE_URL}certificates/Mypic.jpg`}
+  alt="Althaf Profile"
+  className="profile-image"
+/>
+
           </div>
           <h1 className="home-title">
             Hi, I'm <span className="gradient-text">Althaf</span>
